@@ -10,5 +10,5 @@ to the root `index.js`, invoke them and run `yarn start` to see
 `console.log()` messages in terminal
 5. Every task has a `test.js` file. You can write your own solution
 for a problem, modify a specific test file, pass them to `package.json` 
-test script and run `yarn test` to check the test results for
+test script and run `yarn test` to check the results for
 your solution 
