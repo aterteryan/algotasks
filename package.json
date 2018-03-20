@@ -5,10 +5,10 @@
   "repository": "https://github.com/aterteryan/algotasks.git",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node index.js",
-    "lint": "eslint --fix index.js",
+    "start": "babel src",
+    "lint": "eslint --fix src",
     "dev": "nodemon --exec 'yarn lint && yarn start'",
-    "test": "jest reverseString/test.js --watch"
+    "test": "jest reverse_string/test.js --watch"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
