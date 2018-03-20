@@ -8,7 +8,7 @@
     "start": "babel src",
     "lint": "eslint --fix src",
     "dev": "nodemon --exec 'yarn lint && yarn start'",
-    "test": "jest reverse_string/test.js --watch"
+    "test": "jest palindrome/test.js --watch"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
